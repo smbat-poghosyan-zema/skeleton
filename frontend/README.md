@@ -1,18 +1,20 @@
 # Frontend
 
-Stub instructions for installing and running the React application.
+React frontend for LunchSync. Requires the backend API URL via `VITE_API_URL`.
 
 ## Development
 
 ```bash
 npm install
-npm run dev
+VITE_API_URL=http://localhost:3000 npm run dev
 ```
 
 ## Production
 
 ```bash
-npm run build
+VITE_API_URL=http://localhost:3000 npm run build
 npm run preview
 ```
 
+Routes are served through React Router. Authentication uses JWT stored in
+localStorage and role-based guards. Run `npm run lint` before committing.
