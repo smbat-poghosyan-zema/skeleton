@@ -8,4 +8,6 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ### Added
 - Initial monorepo skeleton with frontend and backend scaffolds, docker setup, and documentation.
+- Backend API with JWT auth, user management, restaurants, menu items, seeding
+  script, and migration utilities.
 
